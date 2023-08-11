@@ -1,0 +1,59 @@
+/* ALl styles should be here */
+
+.nav-links li {
+    list-style-type: none;
+    display: inline;
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-text, .work {
+    text-align: center;
+}
+
+td {
+    border: 3px solid grey;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+td:hover {
+    background-color: aquamarine;
+    color: red;
+}
+
+tr {
+    margin: 15px;
+}
+
+li a {
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 15px;
+    color: white;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    margin: 0 5px;
+}
+
+.page-name {
+    color: white;
+}
